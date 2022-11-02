@@ -2,16 +2,33 @@ body{
     font-family: 'montserrat';
     margin: 20px 10px;
     text-align: center;
-    display: flex;
-    justify-items: center;
     color: #ffffff;
+    text-align: center;
 }
 
 .container{
     width: 100%;
     height: 100%;
     background-color: #072037;
-    border-radius: 5px;
+    border-radius: 8px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
+    align-items: stretch;
+}
+
+.container__picture{
+    background-color: #ffffff;
+    justify-content: space-evenly;
+    width: 95%
+}
+
+.container__picture__text{
+    color: #072037;
+}
+img{
+    padding-top: 20px;
+    display: block;
+    width: 85%;
+    margin: auto;
 }
