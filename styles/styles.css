@@ -15,12 +15,12 @@ body::-webkit-scrollbar {
   }
   
   body::-webkit-scrollbar-thumb {
-    background-color: rgb(255, 255, 255); /* color of the scroll thumb */
-    border-radius: 10px; /* roundness of the scroll thumb */
-    border: 15px solid #072037; /* creates padding around scroll thumb */
+    background-color: rgb(255, 255, 255); 
+    border-radius: 10px; 
+    border: 15px solid #072037;
   }
 
-/**** CSS CO ****/
+/**** CSS CONTENT ****/
 
 .container{
     width: 100%;
