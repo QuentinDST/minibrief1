@@ -78,7 +78,7 @@ img{
     margin-bottom: 10px;
 }
 
-.container__main-text__p{
+.container__main__text__p{
     margin-top: 40px;
     margin-bottom: 40px;
     text-align: center;
@@ -87,7 +87,7 @@ img{
 
 }
 
-.container__main-text{
+.container__main__text{
     font-weight: lighter;
     display: flex;
     flex-direction: column;
