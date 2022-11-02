@@ -1,9 +1,7 @@
 body{
     font-family: 'montserrat';
     margin: 20px 10px;
-    text-align: center;
     color: #ffffff;
-    text-align: center;
 }
 
 .container{
@@ -15,6 +13,15 @@ body{
     flex-wrap: wrap;
     justify-content: center;
     align-items: stretch;
+}
+
+h1{
+    font-weight: bolder;
+}
+
+h2{
+    font-size: 13px;
+    font-weight: lighter;
 }
 
 .container__picture{
@@ -31,4 +38,32 @@ img{
     display: block;
     width: 85%;
     margin: auto;
+}
+
+.container__picture__text{
+    font-size: 13px;
+    font-style: italic;
+}
+
+.container__main-text__p{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.container__main-text{
+    font-weight: lighter;
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+li{
+    margin-bottom: 20px;
+}
+
+
+.container__footer{
 }
