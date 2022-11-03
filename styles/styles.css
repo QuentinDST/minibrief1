@@ -100,7 +100,7 @@ li{
 }
 
 span{
-    font-weight: bold;
+    font-weight: 900;
 }
 
 .container__footer{
@@ -119,5 +119,29 @@ a:hover{
 }
 
 a:visited{
-    color: #3054e1;
+    color: #ffffff;
+}
+
+/**** Media Queries ****/
+
+@media (min-width: 1000px){
+    .container__picture{
+        width: 80vw;
+        border: #dbb616 solid 5px;
+    }
+    img{
+        width: 75%;
+    }
+    a:hover{
+        cursor: pointer;
+        font-size: 18px;
+        color: #dbb616;
+    }
+    ul li{
+        list-style-type: circle;
+    }
+    span{
+	    color: #dbb616;
+        font-weight: 1000;
+    }
 }
