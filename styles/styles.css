@@ -129,6 +129,10 @@ a:visited{
         width: 80vw;
         border: #dbb616 solid 5px;
     }
+    .container__main__text{
+        display: flex;
+        align-items: center;
+    }
     img{
         width: 75%;
     }
